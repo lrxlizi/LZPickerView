@@ -184,7 +184,6 @@
     
     self.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     [[[UIApplication sharedApplication].delegate window] addSubview:self];
-    
     //动画出现
     CGRect frame = self.bgVIew.frame;
     if (frame.origin.y == SCREEN_HEIGHT) {

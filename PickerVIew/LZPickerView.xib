@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -87,11 +86,10 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gTM-oF-uPr" secondAttribute="trailing" id="aev-7W-w5K"/>
-                <constraint firstItem="gTM-oF-uPr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gOX-5r-04D"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="gTM-oF-uPr" secondAttribute="bottom" id="st4-2a-J1L"/>
+                <constraint firstAttribute="trailing" secondItem="gTM-oF-uPr" secondAttribute="trailing" id="aev-7W-w5K"/>
+                <constraint firstItem="gTM-oF-uPr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gOX-5r-04D"/>
+                <constraint firstAttribute="bottom" secondItem="gTM-oF-uPr" secondAttribute="bottom" id="st4-2a-J1L"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="bgVIew" destination="gTM-oF-uPr" id="VGk-vh-tAV"/>
                 <outlet property="bgViewHeight" destination="b5d-PQ-531" id="EhX-xO-wkB"/>
